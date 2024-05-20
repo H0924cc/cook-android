@@ -39,7 +39,8 @@ android {
 }
 
 dependencies {
-
+    // CSV reader
+    implementation(libs.opencsv)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
